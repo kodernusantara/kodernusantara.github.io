@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+        <title>Koder Nusantara | Belajar Coding Bahasa Indonesia</title>
+        
+        <style>
+            body {
+                background-color: #fbfbfb;  
+            }
+            header {
+                padding: 200px 0 200px 0;
+                border-bottom: 10px solid #000000;
+                background-image: url('images/bgheader.jpg');
+                background-size: cover;
+            }
+            header img {
+                width: 400px;
+            }
+            .sosmed {
+                margin-top: 20px;
+            }
+            .logososmed {
+                width: 30px;
+                margin: 0 5px 0 5px;
+            }
+            main h1 {
+                text-align: center;
+            }
+            main h1 a {
+                color: #a3a60a;
+            }
+            main h1 a:hover {
+                color: #000000;
+                text-decoration: none;
+            }
+            .container {
+                background-color: #ffffff;
+                padding: 20px 0 0 0;
+            }
+            .about {
+                padding: 20px 50px 20px 50px;
+                font-size: 20px;
+                text-align: justify;
+            }
+            footer {
+                background-color: #000000;
+                margin: 50px 0 0 0;
+            }
+            footer p {
+                text-align: center;
+                color: #ffffff;
+                padding: 5px 0 5px 0;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <center>
+                <a href=""><img src="images/logo.png"></a>
+                <div class="sosmed">
+                    <a href=""><img src="images/instagram.png" class="logososmed"></a>
+                    <a href=""><img src="images/facebook.png" class="logososmed"></a>
+                    <a href=""><img src="images/youtube.png" class="logososmed"></a>
+                    <a href=""><img src="images/twitter.png" class="logososmed"></a>
+                    <a href=""><img src="images/github.png" class="logososmed"></a>
+                </div>
+            </center>
+        </header>
+        <div class="container">
+            <main>
+                <h1>Selamat datang di <a href=""><b>Koder Nusantara</b></a></h1>
+                <div class="about">
+                    <p>Situs web <b>Koder Nusantara</b> dibuat pada tanggal 22 September 2020 oleh Ibnu Ahmad Fauzi. Situs Web ini merupakan 
+                situs web pendidikan yang berisi tutorial programming yang semua materinya ditulis dalam bahasa indonesia.</p>
+                <p>Materi yang dibahas pada situs ini tentang pemrograman web, mulai dari HTML, CSS, Javascript, PHP dan teknologi lain yang digunakan untuk membangun website. Serta materi dalam situs 
+                    ini ditulis secara terurut mulai dari dasar atau fundamental sampai bisa membuat sebuah aplikasi web sendiri.
+                </p>
+                <p>
+                    Tanpa banyak basa-basi, langsung saja mulai belajar dengan materi yang sudah saya sediakan dibawah ini 
+                    dan jika kalian masih pemula, bisa buka materinya secara berurutan dari kiri ke kanan atau atas ke bawah.
+                </p>
+                </div>
+                <h1>Tutorial Pemrograman Web</h1>
+                <div class="row">
+                    <div class="col-sm"><a href="tutorial/web/htmldasar/introduction"><img src="images/logohtml.png" class="img-fluid img-thumbnail"></a></div>
+                    <div class="col-sm"><a href=""><img src="images/logocss.png" class="img-fluid img-thumbnail"></a></div>
+                    <div class="col-sm"><a href=""><img src="images/logojs.png" class="img-fluid img-thumbnail"></a></div>
+                    <div class="col-sm"><a href=""><img src="images/logophp.png" class="img-fluid img-thumbnail"></a></div>
+                </div>
+            </main>
+            <footer>
+                <p>Copyright &copy <b>Koder Nusantara</b> | Design by: Ibnu Ahmad Fauzi</p>
+            </footer>
+        </div>
+
+        <script src="bootstrap/css/bootstrap.min.js"></script>
+    </body>
+</html>

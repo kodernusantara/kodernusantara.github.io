@@ -1,0 +1,75 @@
+body {
+    background-color: #fbfbfb;
+}
+header {
+    padding: 20px 0 20px 0;
+    border-bottom: 10px solid #000000;
+    background-image: url('../images/bgheader.jpg');
+    background-size: cover;
+}
+header img {
+    width: 400px;
+}
+.sosmed {
+    margin-top: 20px;
+}
+.logososmed {
+    width: 30px;
+    margin: 0 5px 0 5px;
+}
+main h1 {
+    text-align: center;
+}
+main h1 a {
+    color: #a3a60a;
+}
+main h1 a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px 0 0 0;
+}
+.about {
+    padding: 20px 50px 20px 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+footer {
+    background-color: #000000;
+    margin: 50px 0 0 0;
+}
+footer p {
+    text-align: center;
+    color: #ffffff;
+    padding: 5px 0 5px 0;
+    margin: 0;
+}
+.table td {
+    border: 3px solid #000000;
+    font-weight: bold;
+}
+.table td a {
+    color: #000000;
+}
+.table td a:hover {
+    color: salmon;
+    text-decoration: none;
+}
+.materi {
+    padding: 0 35px 0 35px;
+}
+.materi p,li {
+    font-size: 19px;
+    text-align: justify;
+}
+.materi hr {
+    border: 3px solid #787874;
+}
+.gambar {
+    margin: 0 0 20px 0;
+}
+.kontentutorial {
+    padding: 10px;
+}
